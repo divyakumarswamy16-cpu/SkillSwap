@@ -5,7 +5,6 @@ import { onAuthStateChanged } from 'firebase/auth';
 import { renderAuthPage } from './pages/authPage.js';
 import { renderNavigation } from './components/navigation.js';
 import { logoutUser } from './auth/auth.js';
-import { renderRequestsPage } from "./members/requests.js";
 
 const app = document.querySelector('#app');
 

@@ -517,10 +517,3 @@ export async function renderRequestsPage(container, user) {
       error.message || "Unable to load the request page.";
   }
 }
-
-export function renderRequestsPage(container, user) {
-    container.innerHTML = `
-        <h2>Skill Exchange Requests</h2>
-        <p>Welcome to Member 4's module!</p>
-    `;
-}
